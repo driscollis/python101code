@@ -1,0 +1,1 @@
+The exercises in this chapter do not have corresponding code examples and are meant to be done via your console or terminal.

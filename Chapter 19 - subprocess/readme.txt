@@ -1,0 +1,1 @@
+Most of the examples in this chapter should be run in IDLE so you can better understand the subprocess module
