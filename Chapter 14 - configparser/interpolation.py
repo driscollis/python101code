@@ -1,6 +1,9 @@
 import configparser
 import os
 
+from create_config import createConfig
+
+
 def interpolationDemo(path):
     if not os.path.exists(path):
         createConfig(path)
