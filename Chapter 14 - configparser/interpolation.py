@@ -10,8 +10,8 @@ def interpolationDemo(path):
     
     print(config.get("Settings", "font_info"))
     
-    print(config.get("Settings", "font_info", 0,
-                     {"font": "Arial", "font_size": "100"}))
+    print(config.get("Settings", "font_info",
+                     vars={"font": "Arial", "font_size": "100"}))
     
 if __name__ == "__main__":
     path = "settings.ini"
