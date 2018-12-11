@@ -1,12 +1,20 @@
 import configparser
 import os
 
+from create_config import createConfig
+
+
 def crudConfig(path):
     """
     Create, read, update, delete config
     """
     if not os.path.exists(path):
         createConfig(path)
+    
+    stat = os.stat(path)
+    if stat.st_size == 0:
+        # File is zero bytes
+        raise RuntimeError('Settings file is empty')
     
     config = configparser.ConfigParser()
     config.read(path)
