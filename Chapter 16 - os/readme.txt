@@ -1,1 +1,0 @@
-This chapter was skipped because it just demonstrates different ways of importing modules. The examples in chapter 16 should be practiced in IDLE or a Python editor of your choice.
