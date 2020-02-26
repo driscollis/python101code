@@ -1,4 +1,4 @@
-# Python 101 Book Code
+# Python 101, 2nd Edition Book Code
 
 Code examples from the book, [Python 101](https://leanpub.com/py101) 2nd Edition by Michael Driscoll. 
 
