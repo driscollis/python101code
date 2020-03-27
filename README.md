@@ -1,5 +1,7 @@
 # Python 101, 2nd Edition Book Code
 
+<a href="https://leanpub.com/py101"><img src="https://www.blog.pythonlibrary.org/wp-content/uploads/2020/02/py101_thumb.jpg" alt="Python 201 2nd Edition" align="right"></a>
+
 Code examples from the book, [Python 101](https://leanpub.com/py101) 2nd Edition by Michael Driscoll. 
 
 You can get early access to the book on [Leanpub](https://leanpub.com/py101) as well as all updates as they come out. The book will be finished by **September 2020**.
