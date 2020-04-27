@@ -11,3 +11,5 @@ py101_2nd_code.wpu
 
 .ipynb_checkpoints
 chapter22_type_hints/.mypy_cache/
+
+*.pyc
