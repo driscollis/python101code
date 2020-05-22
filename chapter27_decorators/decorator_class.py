@@ -3,7 +3,7 @@
 class info:
 
     def __init__(self, arg1, arg2):
-        print('in __init__')
+        print('running __init__')
         self.arg1 = arg1
         self.arg2 = arg2
         print('Decorator args: {}, {}'.format(arg1, arg2))
