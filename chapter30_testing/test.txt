@@ -1,0 +1,7 @@
+The following are tests for doctest_external
+
+>>> from doctest_external import add
+>>> add(1, 2)
+3
+>>> add(4, 5)
+9
