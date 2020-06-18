@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<note_taker>
+  <note>
+    <to>Mike</to>
+    <from>Nadine</from>
+    <heading>Reminder</heading>
+    <body>Don't forget the milk</body>
+  </note>
+  <note>
+    <to>Nicole</to>
+    <from>Nadine</from>
+    <heading>Appointment</heading>
+    <body>Eye doctor</body>
+  </note>
+</note_taker>
