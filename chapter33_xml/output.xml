@@ -1,0 +1,14 @@
+<note_taker>
+  <note>
+    <to>Mike</to>
+    <from>Guido</from>
+    <heading>Reminder</heading>
+    <body>Don't forget the milk</body>
+  </note>
+  <note>
+    <to>Nicole</to>
+    <from>Guido</from>
+    <heading>Appointment</heading>
+    <body>Eye doctor</body>
+  </note>
+</note_taker>

@@ -1,4 +1,7 @@
+# create_xml.py
+
 import xml.etree.ElementTree as ET
+
 
 def create_xml(xml_file):
     root_element = ET.Element('note_taker')
@@ -17,8 +20,7 @@ def create_xml(xml_file):
 
     tree = ET.ElementTree(root_element)
     with open(xml_file, "wb") as fh:
-        tree.write(fh, xml_declaration=True,
-                   encoding='UTF-8')
+        tree.write(fh)
 
 if __name__ == '__main__':
     create_xml('test_create.xml')

@@ -1,0 +1,15 @@
+<note_taker>
+  <note>
+    <to>Guido</to>
+    <from>Nadine</from>
+    <heading>Reminder</heading>
+    <body>Don't forget the milk</body>
+    <new_element>I'm new!</new_element>
+  </note>
+  <note>
+    <to>Nicole</to>
+    <from>Nadine</from>
+    <heading>Appointment</heading>
+    <body>Eye doctor</body>
+  </note>
+</note_taker>
