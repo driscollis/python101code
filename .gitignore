@@ -13,3 +13,4 @@ py101_2nd_code.wpu
 chapter22_type_hints/.mypy_cache/
 
 *.pyc
+*.zip
