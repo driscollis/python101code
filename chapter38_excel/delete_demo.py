@@ -14,7 +14,7 @@ def deleting_cols_rows(path):
     # Delete column A
     sheet.delete_cols(idx=1)
     # delete 2 rows starting on the second row
-    #sheet.delete_rows(idx=2, amount=2)
+    sheet.delete_rows(idx=2, amount=2)
     workbook.save(path)
 
 if __name__ == '__main__':
