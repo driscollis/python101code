@@ -8,7 +8,7 @@ def get_cursor():
 
 def select_all_records_by_author(cursor, author):
     sql = "SELECT * FROM books WHERE author=?"
-    cursor.execute(sql, [(author)])
+    cursor.execute(sql, [author])
     print(cursor.fetchall())  # or use fetchone()
     print("\nHere is a listing of the rows in the table\n")
     for row in cursor.execute("SELECT rowid, * FROM books ORDER BY author"):
