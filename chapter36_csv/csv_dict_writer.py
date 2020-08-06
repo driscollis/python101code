@@ -3,7 +3,7 @@
 import csv
 
 def csv_dict_writer(path, headers, data):
-    with open(path, 'w') as csvfile:
+    with open(path, 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, delimiter=',',
                                 fieldnames=headers)
         writer.writeheader()
@@ -16,12 +16,12 @@ if __name__ == '__main__':
     wxPython Recipes,Mike Driscoll,Apress,2018,978-1-4842-3237-8
     Python Interviews,Mike Driscoll,Packt Publishing,2018,9781788399081'''
     records = []
-    for line in data.split('\n'):
+    for line in data.splitlines():
         records.append(line.strip().split(','))
-    headers = records[0]
+    headers = records.pop(0)
 
     list_of_dicts = []
-    for row in records[1:]:
+    for row in records:
         my_dict = dict(zip(headers, row))
         list_of_dicts.append(my_dict)
 

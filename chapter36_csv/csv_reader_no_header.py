@@ -3,7 +3,7 @@
 import csv
 
 def process_csv(path):
-    with open(path) as csvfile:
+    with open(path, newline='') as csvfile:
         reader = csv.reader(csvfile)
         # Skip the header
         next(reader, None)

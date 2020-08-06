@@ -8,5 +8,5 @@ def process_csv_dict_reader(file_obj):
         print(f'{line["book_title"]} by {line["author"]}')
 
 if __name__ == '__main__':
-    with open('books.csv') as csvfile:
+    with open('books.csv', newline='') as csvfile:
         process_csv_dict_reader(csvfile)
