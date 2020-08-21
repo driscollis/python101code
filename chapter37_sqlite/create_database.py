@@ -2,7 +2,6 @@
 
 import sqlite3
 
-# use :memory: to put it in RAM
 conn = sqlite3.connect("books.db")
 
 cursor = conn.cursor()
