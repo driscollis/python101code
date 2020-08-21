@@ -2,7 +2,7 @@
 
 import argparse
 
-def file_parser(input_file, output_file = ''):
+def file_parser(input_file, output_file=''):
     print(f'Processing {input_file}')
     print('Finished processing')
     if output_file:
