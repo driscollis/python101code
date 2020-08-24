@@ -20,7 +20,7 @@ def scale_image(input_image_path,
         max_size = (w, height)
     else:
         # No width or height specified
-        raise RuntimeError('Width or height required!')
+        raise ValueError('Width or height required!')
 
     original_image.thumbnail(max_size, Image.ANTIALIAS)
     original_image.save(output_image_path)
