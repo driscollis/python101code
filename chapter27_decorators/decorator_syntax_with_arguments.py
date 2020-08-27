@@ -7,8 +7,11 @@ def func_info(arg1, arg2):
     def the_real_decorator(function):
 
         def wrapper(*args, **kwargs):
-            print('Function {} args: {} kwargs: {}'.format(
-                function.__name__, str(args), str(kwargs)))
+            print('Function {} args: {} kwargs: {}'
+                  .format(
+                      function.__name__,
+                      str(args),
+                      str(kwargs)))
             return function(*args, **kwargs)
         return wrapper
 
