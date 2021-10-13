@@ -1,3 +1,0 @@
-This is an example text file
-with multiple lines
-for reading by Python
