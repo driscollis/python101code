@@ -16,3 +16,4 @@ chapter22_type_hints/.mypy_cache/
 *.zip
 *.db
 *.pdf
+*.mypy_cache
