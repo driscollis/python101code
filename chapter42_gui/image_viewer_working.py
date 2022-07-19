@@ -39,7 +39,7 @@ class ImagePanel(wx.Panel):
                            wildcard=wildcard,
                            style=wx.ID_OPEN) as dialog:
             if dialog.ShowModal() == wx.ID_OK:
-                self.photo_txt.SetValue(dialog.GetPath())
+                self.photo_txt.SetValue(dialog.GetPaths()[0])
                 self.load_image()
 
     def load_image(self):
