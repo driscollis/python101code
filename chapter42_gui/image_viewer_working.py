@@ -9,7 +9,7 @@ class ImagePanel(wx.Panel):
         self.max_size = 240
 
         img = wx.Image(*image_size)
-        self.image_ctrl = wx.StaticBitmap(self, 
+        self.image_ctrl = wx.StaticBitmap(self,
                                           bitmap=wx.Bitmap(img))
 
         browse_btn = wx.Button(self, label='Browse')
